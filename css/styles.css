@@ -4,6 +4,16 @@
     box-sizing:border-box;
 }
 
+body{
+    background-color: black;
+    color:white;
+    font-family: "Noto Sans Pau Cin Hau", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
 
 
 @media(max-width:375px){
@@ -40,6 +50,107 @@
         gap:1rem;
     }
 
+    .footer-or{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+
+    }
+
+    .login-footer-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap:0.5rem;
+    }
+
+    /* DESIGN STYLIN */
+
+    .login-page{
+        background: linear-gradient(to bottom, grey, black);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        padding:1rem;
+        
+    }
+
+    .logo{
+        height:70px;
+        width:70px;
+    }
+
+    h1{
+        font-size:2.6em;
+    }
+
+    .header-para{
+        opacity: 0.5;
+        font: small;
+
+    }
+
+    label{
+        font-size: small;
+    }
+
+    input{
+        border-radius: 10px;
+        padding: 10px;
+        background-color: black;
+        border: 1px solid lightgray;
+        color:white;
+    }
+
+    input::placeholder{
+        color: white;
+        opacity: 0.4;
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+        font-size: small;
+        opacity: 0.6;
+    }
+
+    .login-btn{
+        padding: 10px;
+        font-size: large;
+        border-radius: 10px;
+        background-color: rgb(207, 198, 198);
+        border: none;
+        color:black;
+
+    }
+
+    .footer-or::before,
+    .footer-or::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background-color: #ccc;
+    }
+
+    .footer-or span {
+        color: #777;
+        font-size: 0.875rem;
+    }
+
+    .login-footer-btn{
+        background-color: black;
+        border: none;
+        color:white;
+        border-radius: 10px;
+
+    }
+
+
+
+
    
 
 }
@@ -52,7 +163,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
     }
 
     .login-page{
@@ -61,7 +171,7 @@
         justify-content: space-between;
         margin:2rem;
         gap:2rem;
-        min-height: 50vh;
+        min-height: 60vh;
 
     }
 
@@ -86,6 +196,106 @@
         justify-content: flex-start;
         gap:1rem;
     }
+
+     .footer-or{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+
+    }
+
+    .login-footer-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap:0.5rem;
+    }
+
+
+
+    /* DESIGN STYLIN */
+
+    .login-page{
+        background: linear-gradient(to bottom, grey, black);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        padding:1rem;
+        
+
+
+    }
+
+    .logo{
+        height:90px;
+        width:90px;
+    }
+
+    h1{
+        font-size:3em;
+    }
+
+    .header-para{
+        opacity: 0.5;
+        font: small;
+
+    }
+
+    label{
+        font-size: small;
+    }
+
+    input{
+        border-radius: 10px;
+        padding: 10px;
+        background-color: black;
+        border: 1px solid lightgray;
+        color:white;
+    }
+
+     input::placeholder{
+        color: white;
+        opacity: 0.4;
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+        font-size: small;
+        opacity: 0.6;
+    }
+
+    .login-btn{
+        padding: 10px;
+        font-size: large;
+        border-radius: 10px;
+        background-color: rgb(207, 198, 198);
+        border: none;
+        color:black;
+
+    }
+
+    .footer-or::before,
+    .footer-or::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background-color: #ccc;
+    }
+
+    .footer-or span {
+        color: #777;
+        font-size: 0.875rem;
+    }
+
+
+
+
+
+
 }
 
 
@@ -96,7 +306,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
     }
 
     .login-page{
@@ -130,6 +339,102 @@
         justify-content: flex-start;
         gap:1rem;
     }
+
+    .footer-or{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+
+    }
+
+    .login-footer-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap:0.5rem;
+    }
+
+
+
+
+    /* DESIGN STYLIN */
+
+    .login-page{
+        background: linear-gradient(to bottom, grey, black);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        padding:1rem;
+        
+    }
+
+    .logo{
+        height:100px;
+        width:100px;
+    }
+
+    h1{
+        font-size:3.3em;
+    }
+
+    .header-para{
+        opacity: 0.5;
+        font: small;
+
+    }
+
+    label{
+        font-size: small;
+    }
+
+    input{
+        border-radius: 10px;
+        padding: 10px;
+        background-color: black;
+        border: 1px solid lightgray;
+        color: white;
+    }
+    
+    input::placeholder{
+        color: white;
+        opacity: 0.4;
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+        font-size: small;
+        opacity: 0.6;
+    }
+
+    .login-btn{
+        padding: 10px;
+        font-size: large;
+        border-radius: 10px;
+        background-color: rgb(207, 198, 198);
+        border: none;
+        color:black;
+
+    }
+
+    .footer-or::before,
+    .footer-or::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background-color: #ccc;
+    }
+
+    .footer-or span {
+        color: #777;
+        font-size: 0.875rem;
+    }
+
+
+
 
 
 
